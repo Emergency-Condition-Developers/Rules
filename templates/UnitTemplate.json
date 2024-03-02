@@ -1,0 +1,11 @@
+{
+    "description": "E2 (Conscript)",
+    "template": "armor",
+    "type": "human",
+    "sp": 1,
+    "categories":
+    [
+        "gas mask",
+        "rearmentable"
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "pattern": "${type}_${sp}${category}",
+    "mapsp": {
+        "infantry": {
+            "min": "none",
+            "0": "none",
+            "1": "flak",
+            "2": "plate",
+            "max": "plate"
+        },
+        "structures": {
+            "min": "wood",
+            "0": "wood",
+            "1": "steel",
+            "2": "concrete",
+            "max": "concrete"
+        },
+        "aircraft": {
+            "min": "light",
+            "0": "light",
+            "1": "medium",
+            "2": "heavy",
+            "max": "heavy"
+        },
+        "projectiles": {
+            "min": "light",
+            "0": "light",
+            "1": "medium",
+            "2": "heavy",
+            "max": "heavy"
+        },    
+        "vehicles": {
+            "min": "light",
+            "0": "light",
+            "1": "medium",
+            "2": "heavy",
+            "max": "heavy"
+        },
+        "fleet": {
+            "min": "light",
+            "0": "light",
+            "1": "medium",
+            "2": "heavy",
+            "max": "heavy"
+        }
+    },
+    "types": {
+        "infantry": [
+            "human",
+            "thing"
+        ],
+        "structures": [
+            "huge",
+            "medium",
+            "small",
+            "mine",
+            "wall"
+        ],
+        "aircraft": [
+            "plane",
+            "drone",            
+            "helicopter",
+            "zeppelin"
+        ],
+        "projectiles": [
+            "missile"
+        ],
+        "vehicles": [
+            "mbt",
+            "sht",
+            "apc",
+            "vehicle",
+            "platform",
+            "mechanoid"
+        ],
+        "fleet": [
+            "submarine",
+            "vessel",
+            "boat"
+        ]
+    },
+    "categories":
+    {
+        "surface": [ "structures" ],
+        "undeground": [ "structures" ],
+        "water surface": [ "structures" ],
+        "underwater": [ "structures" ],
+
+        "gas mask": [ "infantry" ],
+        "full isolation": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "tesla protection": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "cryo protection": [ "infantry", "aircraft", "vehicles", "fleet" ],       
+        "mutation protection": [ "infantry" ],
+        "time immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "chrono immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
+
+        "cyborg":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
+        "robotic": [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
+        "ai":  [ "infantry", "aircraft", "vehicles", "projectiles", "structures", "fleet" ],
+        "integrated organics":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
+
+        "height low": [ "aircraft", "projectiles" ],
+        "height medium": [ "aircraft", "projectiles" ],
+        "height high": [ "aircraft", "projectiles" ],
+
+        "rearmentable": [ "infantry" ]
+    },
+    "misc": {
+      "animal_armor": "none"
+    },
+    "aliases": {
+        "human": "HM",
+        "cyborg": "CY",
+        "thing": "TH",
+
+        "drone": "DR",
+        "plane": "PL",
+        "heli": "HL",
+        "zeppelin": "ZP",
+        "missile": "ML",
+        
+        "mbt": "MBT",
+        "sht": "SHT",
+        "apc": "APC",
+        "vehicle": "VH",
+        "platform": "PF",
+        "mechanoid": "ME",
+
+        "submarine": "SB",
+        "vessel": "VL",
+        "boat": "BO",
+
+        "huge": "H",
+        "medium": "M",
+        "small": "S",
+        "mine": "T",
+
+        "surface": "GS",
+        "undeground": "GU",
+        "water surface": "WS",
+        "underwater": "WU",
+
+        "gas mask": "GM",
+        "full isolation": "FI",
+        "tesla protection": "TL",
+        "cryo protection": "CR",       
+        "mutation protection": "MU",
+        "time immune": "TI",
+        "chrono imunne": "CI",
+
+        "robotic": "R",
+        "ai": "AI",
+        "integrated organics": "IO",
+
+        "height low": "H1",
+        "height medium": "H2",
+        "height high": "H3",
+
+        "rearmentable": "REARM"
+    }
+}
