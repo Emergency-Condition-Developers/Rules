@@ -37,9 +37,8 @@
 ^IFVMode
 ^OpenTopped
 ^OpportunityFire
-^Deploy(.*)
-^Convert.Deploy
-^DeployInto
+^(.*)Deploy(.*)
+^(.*)Convert(.*)
 ^VeteranAbilities
 ^EliteAbilities
 ^Pip
