@@ -95,6 +95,7 @@
         "time immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "chrono immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "thermal protection": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "magnetic immune": [ "infantry", "aircraft", "vechicles", "fleet" ],
 
         "cyborg":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
         "robotic": [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
