@@ -107,7 +107,7 @@
         "height high": [ "aircraft", "projectiles" ],
 
         "rearmentable": [ "infantry" ],
-        "propaganable":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ]
+        "propagandable":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ]
     },
     "misc": {
       "animal_armor": "none"
@@ -163,6 +163,6 @@
         "height high": "H3",
 
         "rearmentable": "REARM",
-        "propaganable": "PG"
+        "propagandable": "PG"
     }
 }
