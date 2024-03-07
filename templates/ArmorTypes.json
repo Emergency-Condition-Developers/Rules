@@ -96,6 +96,7 @@
         "chrono immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "thermal protection": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "magnetic immune": [ "infantry", "aircraft", "vechicles", "fleet" ],
+        "mutation healing": [ "infantry" ],
 
         "cyborg":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
         "robotic": [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
@@ -153,6 +154,7 @@
         "time immune": "TI",
         "chrono imunne": "CI",
         "thermal protection": "TP",
+        "mutation healing": "MH",
 
         "robotic": "R",
         "ai": "AI",
