@@ -1,0 +1,243 @@
+{
+    "types": {
+        "wall": [
+            {
+                "ShouldBeListedIn": "BuildingTypes",
+                "keys": {
+                    "[W|w]all": "(1)|([Y|y]es)|([T|t]rue)"
+                }
+            }
+        ],
+        "huge": [
+            {
+                "ShouldBeListedIn": "BuildingTypes",
+                "keys": {
+                    "image@[F|f]oundation": "3x3|3x5|4x3|2x6|2x5|5x3|4x4|3x4|6x4"
+                }
+            }
+        ],
+        "medium": [
+            {
+                "ShouldBeListedIn": "BuildingTypes",
+                "keys": {
+                    "image@[F|f]oundation": "2x3|3x2|1x5"
+                }
+            }
+        ],
+        "small": [
+            {
+                "ShouldBeListedIn": "BuildingTypes",
+                "keys": {
+                    "image@[F|f]oundation": "1x1|2x1|1x2|2x2|1x3|3x1|1x4"
+                }
+            }
+        ],
+        "__building__": [
+            {
+                "ShouldBeListedIn": "BuildingTypes"
+            }
+        ],
+        "__animal_or_thing__": [
+            {
+                "ShouldBeListedIn": "InfantryTypes",
+                "keys": {
+                    "NotHuman": "(1)|([Y|y]es)|([T|t]rue)"
+                }
+            }
+        ],
+        "human": [
+            {
+                "ShouldBeListedIn": "InfantryTypes"
+            }
+        ],
+        "__fleet__": [
+            {
+                "ShouldBeListedIn": "VehicleTypes",
+                "keys": { "[N|n]aval": "(1)|([Y|y]es)|([T|t]rue)" }
+            }
+        ],
+        "__vehicle__": [
+            {
+                "ShouldBeListedIn": "VehicleTypes"
+            }
+        ],
+        "__aircraft__": [
+            {
+                "ShouldBeListedIn": "AircraftTypes"
+            }
+        ]
+    },
+    "sp": {
+        "0": [
+            {
+                "keys": { "[A|a]rmor": "(none)|(light)|(wood)" }
+            },
+            {
+                "keys": { "armor@": "(none)|(light)|(wood)" }
+            }
+        ],
+        "1": [
+            {
+                "keys": { "[A|a]rmor": "(flak)|(medium)|(steel)" }
+            },
+            {
+                "keys": { "armor@": "(flak)|(medium)|(steel)" }
+            }
+        ],
+        "2": [
+            {
+                "keys": { "[A|a]rmor": "(plate)|(heavy)|(concrete)" }
+            },
+            {
+                "keys": { "armor@": "(plate)|(heavy)|(concrete)" }
+            }
+        ]
+    },
+    "categories": {
+        "rearmentable": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "[+]?\\d+([.]\\d+)"
+                },
+                "sections":
+                [
+                    "Rearmament(?<num>.*)WH"
+                ],
+                "options": {
+                    "GeneralizeArmor": true
+                }
+            }
+        ],
+        "abduct imumne": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "[+]?\\d+([.]\\d+)"
+                },
+                "sections":
+                [
+                    "AbductionBeamWH"
+                ]
+            }
+        ],
+        "gas mask": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "(0%)|(1%)"
+                },
+                "sections": [ 
+                    "Gas",
+                    "GasRailAP",
+                    "SmerchGass",                
+                    "VirusGas",
+                    "VirusGasCreate",
+                    "VirusgrGasCreate",
+                    "ChaosTropCreate",
+                    "PsychGas",
+                    "PsychGasCreate",
+                    "OldPsychGasCreate",
+                    "HlorGasWH",
+                    "AnimHlorGasWH"
+                ],
+                "options": {
+                    "GeneralizeArmor": true
+                }
+            }
+        ],
+        "full isolation": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "(0%)|(1%)"
+                },
+                "sections": [
+                    "RadBeamWarhead",
+                    "RadEruptionWarhead"
+                ],
+                "options": {
+                    "GeneralizeArmor": true
+                }
+            }
+        ],
+        "propagandable": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "[+]?\\d+([.]\\d+)"
+                },
+                "sections": [
+                    "PropogandaWH",
+                    "PropogandasWH",
+                    "PropogandanWH",
+                    "ComisPropogandaWH"
+                ],
+                "options": {
+                    "GeneralizeArmor": true
+                }
+            }
+        ],
+        "chrono protection": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "0%"
+                },
+                "sections": [
+                    "ChronoBeam6"
+                ]
+            }
+        ],
+        "time immune": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "0%"
+                },
+                "sections": [
+                    "TimebeamWH"
+                ]
+            }
+        ],
+        "cryo immune": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "0%"
+                },
+                "sections": [
+                    "CryoLegWH",
+                    "CryoDepWH",
+                    "AlCryoLegWH",
+                    "TankCryoLegWH",
+                    "CryoCannonWH"
+                ]
+            }
+        ],
+        "makeup-off": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "0%"
+                },
+                "sections": [
+                    "Snapshot"
+                ]
+            }
+        ],
+        "mutation protection": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "0%"
+                },
+                "sections": [
+                    "GeneticWH",
+                    "SWGeneticWH"
+                ]
+            }
+        ],
+        "mutation healing": [
+            {
+                "keys": {
+                    "[V|v]ersus[.]${Armor}": "[-]\\d+([.]\\d+)"
+                },
+                "sections": [
+                    "GeneticWH",
+                    "SWGeneticWH"
+                ]
+            }
+        ]
+    }
+}

@@ -94,9 +94,13 @@
         "mutation protection": [ "infantry" ],
         "time immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "chrono immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "abduct immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "bite immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
+        "drone immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "thermal protection": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "magnetic immune": [ "infantry", "aircraft", "vechicles", "fleet" ],
         "mutation healing": [ "infantry" ],
+        "makeup-off": [ "infantry" ],
 
         "cyborg":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
         "robotic": [ "infantry", "aircraft", "vehicles", "structures", "fleet" ],
@@ -139,7 +143,8 @@
         "huge": "H",
         "medium": "M",
         "small": "S",
-        "mine": "T",
+        "mine": "N",
+        "wall": "W",
 
         "surface": "GS",
         "undeground": "GU",
@@ -152,7 +157,10 @@
         "cryo protection": "CR",       
         "mutation protection": "MU",
         "time immune": "TI",
-        "chrono imunne": "CI",
+        "chrono imumne": "CI",
+        "abduct immune": "AB",
+        "bite immune": "NF",
+        "drone immune": "DI",
         "thermal protection": "TP",
         "mutation healing": "MH",
 
@@ -165,6 +173,7 @@
         "height high": "H3",
 
         "rearmentable": "REARM",
-        "propagandable": "PG"
+        "propagandable": "PG",
+        "makeup-off": "SO"
     }
 }

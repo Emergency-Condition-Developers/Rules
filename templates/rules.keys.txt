@@ -18,7 +18,6 @@
 ^LeadershipRating
 ^Strength
 ^Armor
-^Passengers
 ^AirRangeBonus
 ^Gunner
 ^Primary
@@ -41,8 +40,8 @@
 ^(.*)Convert(.*)
 ^VeteranAbilities
 ^EliteAbilities
-^Pip
 ^Pip(.*)
+^Passengers
 ^(.*)Ammo(.*)
 ^(.*)Reload(.*)
 ^OccupyPip

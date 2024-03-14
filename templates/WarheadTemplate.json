@@ -1,47 +1,46 @@
 {
     "description": "Just some EMP cannon",
     "template": "versus",
-    "common":
+    "versus": 
     {
-        "versus": 
+        "default": 0,
+        "sp":
         {
-            "sp":
-            {
-                "min": 1,
-                "0": 1,
-                "1": 0.9,
-                "2": 0.8,
-                "max": 0.7
-            },
-            "groups": 
-            {
-                "default": 1,
-                "aircraft": 0
-            },
-            "types":
-            {
-                "human": 0,
-                "thing": 0,
-                "missile": 0        
-            },
-            "features":
-            {
-                "height low": 1,
-                "robotic": 2,
-                "ai": 1.5,
-                "integrated organics": 0
-            }
+            "min": 1,
+            "0": 1,
+            "1": 0.9,
+            "2": 0.8,
+            "max": 0.7
         },
-        "flags":
+        "groups": 
         {
-            ".*": {
-                "ForceFire": true,
-                "Retaliate": true,
-                "PassiveAcquire": true
-            }
+            "default": 1,
+            "aircraft": 0
+        },
+        "types":
+        {
+            "human": 0,
+            "thing": 0,
+            "missile": 0        
+        },
+        "categories":
+        {
+            "height low": 1,
+            "robotic": 2,
+            "ai": 1.5,
+            "integrated organics": 0
         }
     },
-    "override": {
+    "flags":
+    {
+        ".*": {
+            "Priority": 0,
+            "ForceFire": true,
+            "Retaliate": true,
+            "PassiveAcquire": true
+        }
+    },
+    "overrides": {
         "Volkov": {
             "Versus": 0.2,
             "IsAbsoluteVersus": false,
