@@ -4,7 +4,7 @@
             {
                 "ShouldBeListedIn": "BuildingTypes",
                 "keys": {
-                    "[W|w]all": "(1)|([Y|y]es)|([T|t]rue)"
+                    "\\b[W|w]all\\b": "(1)|([Y|y]es)|([T|t]rue)"
                 }
             }
         ],
