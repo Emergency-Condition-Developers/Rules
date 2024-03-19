@@ -61,7 +61,8 @@
             "plane",
             "drone",            
             "helicopter",
-            "zeppelin"
+            "zeppelin",
+            "disk"
         ],
         "projectiles": [
             "missile"
@@ -127,6 +128,7 @@
         "plane": "PL",
         "heli": "HL",
         "zeppelin": "ZP",
+        "disk": "DK",
         "missile": "ML",
         
         "mbt": "MBT",

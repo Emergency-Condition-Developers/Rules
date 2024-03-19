@@ -91,7 +91,8 @@
             {
                 "keys": { "armor@": "(plate)|(heavy)|(concrete)" }
             }
-        ]
+        ],
+        "-1": []
     },
     "categories": {
         "rearmentable": [
@@ -237,6 +238,25 @@
                     "GeneticWH",
                     "SWGeneticWH"
                 ]
+            }
+        ],
+        "water surface": [
+            {
+                "ShouldBeListedIn": "BuildingTypes",
+                "keys": {
+                    "\\b[N|n]aval\\b": "(1)|(yes)|(true)"
+                }
+            }
+        ],
+        "surface": [
+            {
+                "ShouldBeListedIn": "BuildingTypes",
+                "keys": {
+                    "\\b[N|n]aval\\b": "(0)|(no)|(false)"
+                }
+            },
+            {
+                "ShouldBeListedIn": "BuildingTypes"
             }
         ]
     }
