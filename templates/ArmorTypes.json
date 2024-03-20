@@ -126,7 +126,7 @@
 
         "drone": "DR",
         "plane": "PL",
-        "heli": "HL",
+        "helicopter": "HL",
         "zeppelin": "ZP",
         "disk": "DK",
         "missile": "ML",
@@ -159,11 +159,12 @@
         "cryo protection": "CR",       
         "mutation protection": "MU",
         "time immune": "TI",
-        "chrono imumne": "CI",
+        "chrono immune": "CI",
         "abduct immune": "AB",
         "bite immune": "NF",
         "drone immune": "DI",
         "thermal protection": "TP",
+        "magnetic immune": "MI",
         "mutation healing": "MH",
 
         "robotic": "R",
