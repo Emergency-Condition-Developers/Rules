@@ -1,0 +1,56 @@
+{
+    "economy": {
+        "ore": {
+            "value": 25
+        },
+        "gems": {
+            "value": 50
+        },
+        "oil": {
+            "startup": 1000,
+            "amount": 20,
+            "delay": 100
+        }
+    },
+    "default_unit": {
+        "strength": 1,
+        "buildtime": {
+            "speed": 0.475,
+            "cost": 1000
+        }
+    },
+    "harvester": {
+        "_inherit": "default_unit",
+        "storage": 20
+    },
+    "civilian": {
+        "_inherit": "default_unit",
+        "strength": 10
+    },
+    "infantry": {
+        "_inherit": "civilian",
+        "cost": 10,
+        "strength": 50,
+        "buildtime": {
+            "speed": 0.475,
+            "cost": 1000
+        }
+    },
+    "mbt": {
+        "_inherit": "default_unit",
+        "cost": 500,
+        "strength": 500
+    },
+    "sht": {
+        "_inherit": "default_unit",
+        "cost": 1000,
+        "strength": 700
+    },
+    "default_weapon": {
+        "damage": 1
+    },
+    "assault_rifle": {
+        "_inherit": "default_weapon",
+        "damage": "@civilian.strength"
+    }
+}
