@@ -20,7 +20,7 @@
             {
                 "ShouldBeListedIn": "BuildingTypes",
                 "keys": {
-                    "image@[F|f]oundation": "2x3|3x2|1x5"
+                    "image@[F|f]oundation": "2x3|3x2|1x5|4x2"
                 }
             }
         ],
