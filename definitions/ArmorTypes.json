@@ -73,7 +73,8 @@
             "apc",
             "vehicle",
             "platform",
-            "mechanoid"
+            "mechanoid",
+            "bot"
         ],
         "fleet": [
             "submarine",
@@ -99,7 +100,7 @@
         "bite immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "drone immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "thermal protection": [ "infantry", "aircraft", "vehicles", "fleet" ],
-        "magnetic immune": [ "infantry", "aircraft", "vechicles", "fleet" ],
+        "magnetic immune": [ "infantry", "aircraft", "vehicles", "fleet" ],
         "mutation healing": [ "infantry" ],
         "makeup-off": [ "infantry" ],
 
@@ -115,9 +116,13 @@
         "rearmentable": [ "infantry" ],
         "propagandable":  [ "infantry", "aircraft", "vehicles", "structures", "fleet" ]
     },
-    "misc": {
-      "animal_armor": "none"
-    },
+    "misc": [
+      {
+        "name": "animal_armor",
+        "group": "infantry",
+        "basic": "none"
+      }
+    ],
     "aliases": {
         "human": "HM",
         "cyborg": "CY",
@@ -134,9 +139,10 @@
         "mbt": "MBT",
         "sht": "SHT",
         "apc": "APC",
-        "vehicle": "VH",
+        "vehicle": "VEH",
         "platform": "PF",
-        "mechanoid": "ME",
+        "mechanoid": "MECH",
+        "bot": "BOT",
 
         "submarine": "SB",
         "vessel": "VL",

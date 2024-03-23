@@ -26,27 +26,33 @@
         "categories":
         {
             "height low": 1,
-            "robotic": 2,
+            "(robotic)|(ai)": 2,
             "ai": 1.5,
             "integrated organics": 0
         }
     },
-    "flags":
-    {
-        ".*": {
-            "Priority": 0,
-            "ForceFire": true,
-            "Retaliate": true,
-            "PassiveAcquire": true
+    "flags": [
+        {
+            "Pattern": "\\b.*\\b",
+            "Priority": 100,
+            "Value": {
+                "ForceFire": true,
+                "Retaliate": true,
+                "PassiveAcquire": true
+            }
         }
-    },
-    "overrides": {
-        "Volkov": {
-            "Versus": 0.2,
-            "IsAbsoluteVersus": false,
-            "ForceFire": true,
-            "Retaliate": true,
-            "PassiveAcquire": true
+    ],
+    "overrides": [ 
+        {
+            "Pattern": "\\bVolkov\\b",
+            "Priority": 100,
+            "Value": {
+                "Versus": 0.2,
+                "IsAbsolute": false,
+                "ForceFire": true,
+                "Retaliate": true,
+                "PassiveAcquire": true
+            }
         }
-    }
+    ]
 }

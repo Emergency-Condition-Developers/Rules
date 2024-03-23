@@ -51,6 +51,10 @@
     },
     "assault_rifle": {
         "_inherit": "default_weapon",
-        "damage": "@civilian.strength"
+        "damage": "${civilian.strength}"
+    },
+    "hmg": {
+        "_inherit": "default_weapon",
+        "damage": "${infantry.strength}*1.5"
     }
 }
